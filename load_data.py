@@ -16,7 +16,7 @@ def load_data(file_path):
 
     # Print each column
     #for column, array in column_arrays.items():
-    #    print(f"{column}: {array}")
+     #   print(f"{column}: {array}")
 
     return column_arrays
 
