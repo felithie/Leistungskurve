@@ -12,5 +12,8 @@ sorted_power_W = bubble_sort(power_W)
 print("das ist sortierte Power",sorted_power_W[::-1])
 # daten plotten
 
-plt.plot(time,power_W)
-show()
+plt.plot(sorted_power_W[::-1])
+plt.xlabel("Dauer in Sekunden")
+plt.ylabel("Leistung in W")
+plt.grid(True)
+plt.show()
